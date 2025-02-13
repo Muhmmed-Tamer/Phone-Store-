@@ -1,0 +1,208 @@
+*{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.container{
+    margin:20px auto;
+    width: 80%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 10px;
+    background-color: red;
+    padding: 30px;
+    border-radius: 10px;
+}
+.links ul{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.links ul li a:hover{
+    border-bottom: 2px solid white;
+    color: white;
+    margin: 10px;
+}
+.head i{
+    color: black;
+}
+#home{
+    height: 100vh;
+}
+#home h2{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 15px 0 ;
+}
+#home h2 span{
+    color: red;
+}
+#home input{
+    width: 100%;
+    margin: 20px 0 ;
+    padding: 18px;
+    outline: none;
+    border-color: red;
+    background-color: white;
+    visibility: hidden;
+}
+#home p{
+    color: #777;
+    font-size: 14px;
+}
+#home button{
+    padding: 20px;
+    outline: none;
+    border: none;
+    margin: 10px  0 ;
+    background-color: red;
+}
+#home img{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+#phones h3{
+    color: red;
+    text-align: center;
+}
+#phones p{
+    text-align: center;
+    color: #777;
+}
+#home #up{
+    background-color: red;
+    padding: 4px;
+    border-radius: 3px;
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#phones h1{
+    text-align: center;
+    font-weight: 600;
+    line-height: 50px;
+}
+#phones .titleOfSectionOne{
+    color: black;
+    font-size: 28px;
+    margin-top: 20px;
+    color: red;
+}
+#sectionOne{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 40px;
+    }
+#sectionOne div{
+    width: 200px;
+    height: 300px;
+}
+#sectionOne img{
+    height: 200px;
+    }
+#sectionOne div p{
+        text-align: left;
+        font-size: 12px;
+        color: black;
+    }
+#sectionOne div p span{
+    display: block;
+    text-align: right;
+    color: red;
+    padding-right: 20px;
+}
+#sectionOne #parent
+{
+    background-color: red;
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    position: absolute;
+    left: 250px;
+    display: none;
+} 
+#sectionOne button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    transition: 0.5s;
+}
+#sectionOne button:hover{
+    background-color: red;
+    letter-spacing: 2px;
+}
+#cards table{
+    width: 100%;
+}
+#cards table tr td{
+    text-align: center;
+    border: #777 solid 3px;
+    }
+#cards p{
+    text-align: center;
+    color: red;
+    margin: 40px 0;
+    font-size: 32px;
+}
+#cards #countOfItem{
+    text-align: center;
+    display: block;
+    margin: 20px 0;
+    color: red;
+}
+#cards #totalOfPrice{
+    text-align: center;
+    color: green;
+    margin: 20px 0;
+    display: block;
+    font-size: 28px;
+}
+#contact{
+    background-color: black;
+    padding: 40px 30px; 
+}
+#contact #Contact{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 30px;
+    
+}
+#contact #Contact div a{
+    text-decoration: none; 
+    color: red;   
+}
+#contact #Contact p,#contact #Contact h2{
+    color: #777;
+    margin: 10px 0;
+    }
+#parts #moveImage{
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    display: block;
+}  
+#parts p{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0 ;
+}  
